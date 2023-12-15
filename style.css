@@ -6,11 +6,15 @@
     font-family: sans-serif;
 }
 
+body {
+    background-color: rgb(36,45,52) ;  
+}
+
 #wrapper {
     /* background-color: rgba(91, 112, 131, 0.4); */
     background-color: rgb(36,45,52) ;
-    height: 100vh;
-    width: 100vw ;
+    height: 100%;
+    width : 100%;
     padding-top: 30px;
 } 
 
@@ -59,6 +63,14 @@ h2 {
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+
+.login:hover {
+    background-color: rgb(230,230,230) ;
+}
+
+.forgotpassword:hover {
+    background-color: rgb(24,25,25);
 }
 
 .username {
