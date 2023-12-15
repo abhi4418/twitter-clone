@@ -11,13 +11,13 @@ body {
 }
 
 #wrapper {
-    /* background-color: rgba(91, 112, 131, 0.4); */
     background-color: rgb(36,45,52) ;
     height: 100%;
     width : 100%;
     padding-top: 30px;
 } 
 
+/* main container that holds every element */
 .container {
     margin-top: 30px;
     height: 550px;
@@ -29,6 +29,7 @@ body {
     border-radius: 20px;
 }
 
+/* for the X logo */
 .logo {
     height: 30px;
     width: 30px;
@@ -36,6 +37,7 @@ body {
     align-self: center;
 }
 
+/* heading for sign in */
 h2 {
     padding-top: 35px;
     padding-left: 150px;
@@ -44,6 +46,7 @@ h2 {
     font-weight: 700;
 }
 
+/* flex container for sign in buttons */
 .signin {
     padding-top: 30px;
     display: flex;
@@ -52,6 +55,7 @@ h2 {
     gap: 30px;
 }
 
+/* button styling for login buttons */
 .login {
     background-color: white;
     color: black;
@@ -73,6 +77,7 @@ h2 {
     background-color: rgb(24,25,25);
 }
 
+/* input field for username */
 .username {
     margin-top: 10px;
     background-color: black;
@@ -85,6 +90,7 @@ h2 {
     color: white ;
 }
 
+/* next buton */
 .next {
     align-self: center;
     margin-top: 30px;
@@ -92,6 +98,7 @@ h2 {
     font-family: sans-serif;
 }
 
+/* forgot pass button */
 .forgotpassword {
     align-self: center;
     margin-top: 30px;
@@ -101,17 +108,20 @@ h2 {
     border: 1px solid rgb(29,31,32);
 }
 
+/* container for sign up button , common for apple and google */
 .google {
     display: flex;
     gap: 7px;
 }
 
+/* styling of apple and google png */
 .googlelogo {
     object-fit: cover;
     height: 20px;
     width: 20px;
 }
 
+/* styling of bars near "or" text  */
 .or {
     width: 140px;
     height: 0;
@@ -119,6 +129,8 @@ h2 {
     align-self: center;
 }
 
+
+/* small screen size */
 @media screen and (max-width : 600px) {
     body {
         background-color: black;
@@ -126,12 +138,15 @@ h2 {
     #wrapper {
         padding-top: 0;
         background-color: black;
+        display: flex;
     }
     h2 {
-        padding-top: 150px;
+        padding-top: 100px;
+        padding-left: 23vw;
     }
     .container {
         background-color: black;
         margin-left: 0;
     }
+    
 }
