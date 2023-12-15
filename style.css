@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+#wrapper {
+    /* background-color: rgba(91, 112, 131, 0.4); */
+    background-color: #0b0808cb;
+    height: 100% ;
+    width: 100%;
+    padding: 50px;
+}
+
+.container {
+    height: 550px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    align-self: center;
+}
+
+h2 {
+    padding-top: 20px;
+    padding-left: 140px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.signin {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.login {
+    background-color: white;
+    color: black;
+    width: 300px;
+    text-align: center;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.username {
+    margin-top: 10px;
+    background-color: black;
+    width: 50%;
+    height: 50px;
+    align-self: center;
+    border: 1px solid rgba(128, 128, 128, 0.562);
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.next {
+    align-self: center;
+    margin-top: 30px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.forgotpassword {
+    align-self: center;
+    margin-top: 30px;
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    border: 1px solid rgba(128, 128, 128, 0.562);
+}
+
+.google {
+    display: flex;
+    gap: 7px;
+}
+
+.googlelogo {
+    object-fit: cover;
+    height: 20px;
+    width: 20px;
+}
+
+.or {
+    width: 140px;
+    height: 0;
+    border: 1px solid rgba(128, 128, 128, 0.562);
+    align-self: center;
+}
