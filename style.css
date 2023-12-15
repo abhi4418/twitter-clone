@@ -118,3 +118,15 @@ h2 {
     border: 1px solid rgb(29,31,32) ;
     align-self: center;
 }
+
+@media screen and (max-width : 600px) {
+    body {
+        background-color: black;
+    }
+    #wrapper {
+        padding-top: 0;
+    }
+    h2 {
+        padding-top: 150px;
+    }
+}
