@@ -125,8 +125,13 @@ h2 {
     }
     #wrapper {
         padding-top: 0;
+        overflow-x: hidden;
     }
     h2 {
         padding-top: 150px;
+    }
+    .container {
+        background-color: black;
+        margin-left: 50px;
     }
 }
